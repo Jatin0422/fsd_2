@@ -1,0 +1,6 @@
+fs = require('fs')
+fs.writeFileSync('1.txt', "0 1 -9 20 33 -44 50")
+a=fs.readFileSync("1.txt", 'utf-8')
+console.log(a)
+data = a.split(" ").sort((x, y) => x - y)
+console.log(data)

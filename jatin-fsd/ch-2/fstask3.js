@@ -1,0 +1,5 @@
+fs = require('fs')
+fs.writeFileSync('a.txt', '{"Name":"PQR", "Age":23}')
+a = fs.readFileSync('a.txt', 'utf-8')
+b = JSON.parse(a)
+console.log(b.Age)

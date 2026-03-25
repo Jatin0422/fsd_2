@@ -1,0 +1,4 @@
+{"data":{"a":15,"b":20,"c":[40,30]}}
+ addition: 35
+ subtraction: 10
+ multiplication: 1200
