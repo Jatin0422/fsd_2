@@ -1,0 +1,5 @@
+expr = require('express')
+app = expr()
+//app.use(expr.static('../public'))
+app.use(expr.static("../public", { index: 'jambo.html' }))
+app.listen(5679)
